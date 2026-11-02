@@ -1139,7 +1139,9 @@ html, body {
   }
 
   .envelope-names-script {
-    font-size: 3.1rem;
+    width: 100%;
+    font-size: clamp(2rem, 8.5vw, 3.1rem);
+    white-space: nowrap;
   }
 
   .person-title-script {
@@ -1214,4 +1216,3 @@ html, body {
     max-width: 230px;
   }
 }
-
